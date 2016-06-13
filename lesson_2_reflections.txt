@@ -24,4 +24,16 @@ Branches are useful if you want to test something new and you want to have a wor
 
 How do the diagrams help you visualize the branch structure?
 
-The literally visualize the structure.
+They literally visualize the structure.
+
+###
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result is a single branch including all the changes from both branches. We represent it the way we do because the new branch has two parents. Also one of the branches ceases to exist.
+
+###
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+It automates the boring and obvious stuff.
