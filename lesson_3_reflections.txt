@@ -8,3 +8,9 @@ Why might you want to always pull changes manually rather than having Git automa
 
 	Because some changes require multiple commits to be fully functional and maybe you don't like making your half-baked code public.
 
+###
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+	A branch is a separate chain of commits that share some history with other branches. It's often used to test some new functionalities. A repository can contain multiple branches. A clone is a full copy of a repo with all of its branches. A fork is a GitHub version of a clone. 
+
