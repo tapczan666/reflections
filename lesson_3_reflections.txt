@@ -12,5 +12,22 @@ Why might you want to always pull changes manually rather than having Git automa
 
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 
-	A branch is a separate chain of commits that share some history with other branches. It's often used to test some new functionalities. A repository can contain multiple branches. A clone is a full copy of a repo with all of its branches. A fork is a GitHub version of a clone. 
+	A branch is a separate chain of commits that share some history with other branches. It's often used to test some new functionalities. A repository can contain multiple branches. A clone is a full copy of a repo with all of its branches. A fork is a GitHub version of a clone.
 
+###
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+	You can check the differences between your code and the master version of the project that you collaborate on with multiple people.
+
+###
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+	You'd probably have to pass around files on pendrives and in emails and everything would at some point become an unmanageable mess.
+
+###
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+	You'd want to use a separate branch if you're trying out something that can potentially break your program. If it does then it's simple to go back to working code.
